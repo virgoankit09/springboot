@@ -1,0 +1,12 @@
+package com.example.demo.user;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class UserDaoService {
+
+	
+	private List<User> users = new ArrayList<>();
+	
+	
+}

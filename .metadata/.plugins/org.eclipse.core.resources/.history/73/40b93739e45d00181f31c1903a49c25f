@@ -1,0 +1,14 @@
+package com.example.demo.user;
+
+import javax.persistence.Entity;
+
+@Entity
+public class Post {
+
+	private Integer id;
+	private String description;
+	
+	
+	private User user;
+	
+}

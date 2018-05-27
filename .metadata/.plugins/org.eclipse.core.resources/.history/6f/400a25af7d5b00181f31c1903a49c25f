@@ -1,0 +1,11 @@
+package com.example.demo;
+
+public class HelloWorldController {
+
+	
+	public String helloWorld() {
+		return "Hello World";
+	}
+	
+	
+}
